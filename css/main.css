@@ -1,3 +1,10 @@
+/*reset das propriedades*/
+* {
+  box-sizing: border-box; /*encaixa todas as propriedades dentro da altura determinada para o elemento*/
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
     color: green;
 }
