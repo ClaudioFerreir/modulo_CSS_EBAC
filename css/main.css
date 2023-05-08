@@ -21,10 +21,14 @@ header .container {
 
 header li {
   display: inline; /*deixa os elementos na mesma linha*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 header li a {
   color: #f5f6fa;
+  text-decoration: none;
+  margin-left: 16px;
 }
 
 .container {
@@ -39,7 +43,8 @@ header li a {
 }
 
 .articles article img {
-  height: 180px;
+  /*height: 180px;*/
+  width: 100%;
 }
 
 .articles article {
@@ -64,4 +69,39 @@ section h2, .articles article {
   color: #fff;
   padding: 8px;
   display: inline-block; /*para tirar a caracteristica nativa do inline de forma que sobrepoe o texto e assim nao haver sobreposição dos elementos*/
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.articles article a:hover {
+  text-decoration: underline;
+}
+.articles article p,
+.articles article a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+  font-size: 24px;
+}
+
+section h2 {
+  font-size: 32px;
+}
+
+#sports {
+  background-color: rgba(0, 255,0,0.1);
+}
+
+#sports .articles article a {
+  background-color: #009432;
+}
+
+#economy {
+  background-color: #f8f59f;
+}
+
+#economy .articles article a {
+  background-color: #ff9f1a;
 }
