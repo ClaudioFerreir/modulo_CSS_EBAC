@@ -7,8 +7,24 @@
 
 /*estilização do body*/
 
+body > header { /*header filho do body e nao todos os headers dos articles*/
+  background-color: #2f3640;
+  padding: 16px 0;
+  color: #f5f6fa;
+}
+
+header .container {
+  display: flex; /*deixa os elementos na mesma linha*/
+  align-items: center; /*alinha os elementos no centro*/
+  justify-content: space-between; /*espaço entre os elementos*/
+}
+
 header li {
   display: inline; /*deixa os elementos na mesma linha*/
+}
+
+header li a {
+  color: #f5f6fa;
 }
 
 .container {
@@ -28,4 +44,24 @@ header li {
 
 .articles article {
   width: 30%;
+}
+
+section {
+  padding: 16px 0;
+}
+
+section h2, .articles article {
+  margin-bottom: 16px;
+}
+
+.articles article h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.articles article a {
+  background-color: blue;
+  color: #fff;
+  padding: 8px;
+  display: inline-block; /*para tirar a caracteristica nativa do inline de forma que sobrepoe o texto e assim nao haver sobreposição dos elementos*/
 }
