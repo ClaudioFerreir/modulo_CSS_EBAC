@@ -6,3 +6,26 @@
 }
 
 /*estilização do body*/
+
+header li {
+  display: inline; /*deixa os elementos na mesma linha*/
+}
+
+.container {
+  width: 1366px; /*largura de um notebook padrao hd*/
+  margin: 0 auto; /*centraliza o container*/
+}
+
+.articles {
+  display:flex; /*deixa os elementos na mesma linha*/
+  flex-wrap: wrap; /*quebra a linha quando nao cabe mais elementos*/
+  justify-content: space-between; /*espaço entre os elementos*/
+}
+
+.articles article img {
+  height: 180px;
+}
+
+.articles article {
+  width: 30%;
+}
