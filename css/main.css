@@ -116,8 +116,16 @@ section h2 {
   background-color: #aecfdf;
 }
 
+#entertainment .articles article a {
+  background-color: #14213d;
+}
+
 #technology {
   background-color: #9f9fad;
+}
+
+#technology .articles article a {
+  background-color: #703D57;
 }
 
 .readmore {
